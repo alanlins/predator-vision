@@ -63,3 +63,6 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 Assets/UnityVS.meta
+
+#LOG
+*.log

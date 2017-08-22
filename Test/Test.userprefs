@@ -1,9 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NightVision.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shaders\ThermalVision.shader">
     <Files>
-      <File FileName="Assets\Scripts\VisionController.cs" Line="16" Column="1" />
-      <File FileName="Assets\Scripts\NightVision.cs" Line="60" Column="42" />
+      <File FileName="Assets\Scripts\VisionController.cs" Line="23" Column="40" />
+      <File FileName="Assets\Scripts\NightVision.cs" Line="1" Column="1" />
+      <File FileName="Assets\Shaders\NightVision.shader" Line="57" Column="1" />
+      <File FileName="Assets\Scripts\ThermalVision.cs" Line="20" Column="33" />
+      <File FileName="Assets\Shaders\ThermalVision.shader" Line="33" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -3,17 +3,25 @@ using System.Collections;
 
 public class VisionController : MonoBehaviour {
 	NightVision nightVision;
+	ThermalVision thermalVision;
 
 	float zoom;
 	// Use this for initialization
 	void Start () {
 		nightVision = FindObjectOfType<NightVision>();
+		thermalVision = FindObjectOfType<ThermalVision>();
 	}
 
 
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.Alpha1))
+		if (Input.GetKeyDown (KeyCode.Alpha1)) {
 			nightVision.enabled = !nightVision.enabled;
+			thermalVision.enabled = false;
+		}
+		else if (Input.GetKeyDown (KeyCode.Alpha2)) {
+			nightVision.enabled = false;
+			thermalVision.enabled = !thermalVision.enabled;
+		}
 
 		if(nightVision.enabled)
 		{

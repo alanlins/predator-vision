@@ -54,9 +54,7 @@ fixed4 frag (v2f_img i) : SV_Target
   	finalColor.rgb = (cColor + (noise*0.2)) * greenColor * mask *lightIntensity;// calculate final color
   	return finalColor;
 }
-// REFERENCES
-// https://developer.valvesoftware.com/wiki/Vision_Nocturna#Nightvision_with_shaders
-// http://www.geeks3d.com/20091009/shader-library-night-vision-post-processing-filter-glsl/
+
 ENDCG
 	}
 }
